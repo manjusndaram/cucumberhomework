@@ -1,0 +1,386 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 1380251300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the techfios login page",
+            "match": {
+              "location": "steps.HomeworkStepDefinition.user_is_on_the_techfios_login_page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-08-08T00:45:54.709Z",
+        "before": [
+          {
+            "result": {
+              "duration": 6334403900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.HomeworkStepDefinition.setup()"
+            }
+          }
+        ],
+        "line": 28,
+        "name": "User should be able to login with valid credentials and open a new account",
+        "description": "",
+        "id": ";user-should-be-able-to-login-with-valid-credentials-and-open-a-new-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 3121998600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.HomeworkStepDefinition.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3342622300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the \"demo@techfios.com\" in the \"username\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@techfios.com\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"username\"",
+                  "offset": 43
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_the_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3982293000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User enters the \"abc123\" in the \"password\" field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 16
+                },
+                {
+                  "val": "\"password\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_the_in_the_field(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6286896000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on \"login\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"login\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2036997900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should land on Dashboard page",
+            "match": {
+              "location": "steps.HomeworkStepDefinition.user_should_land_on_Dashboard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 193440300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on \"bankCash\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bankCash\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 758674900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User clicks on \"newAccount\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"newAccount\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2015097200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User should land on Account page",
+            "match": {
+              "location": "steps.HomeworkStepDefinition.user_should_land_on_Account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 322829600,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters \"CheckingAccount\" in the \"accountTitle\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CheckingAccount\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"accountTitle\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 429001600,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"CheckingAccountDescription\" in the \"description\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"CheckingAccountDescription\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"description\"",
+                  "offset": 48
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 223579400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"$50,000\" in the \"initialBalance\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$50,000\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"initialBalance\"",
+                  "offset": 29
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 266288400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters \"023456789\" in the \"accountNumber\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"023456789\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"accountNumber\"",
+                  "offset": 31
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181632300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters \"MS\" in the \"contactPerson\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"MS\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"contactPerson\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 181024700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters \"9876542100\" in the \"Phone\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"9876542100\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Phone\"",
+                  "offset": 32
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters \"www.Abcbank.com\" in the \"internetBankingURL\" field in accounts page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"www.Abcbank.com\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"internetBankingURL\"",
+                  "offset": 37
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_enters_in_the_field_in_accounts_page(java.lang.String,java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 493986600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on \"submit\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"submit\"",
+                  "offset": 15
+                }
+              ],
+              "location": "steps.HomeworkStepDefinition.user_clicks_on(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3084324500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User should be able to validate account created successfully",
+            "match": {
+              "location": "steps.HomeworkStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HomeworkScenario"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "  Techfios Other billing login page functionality validation",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Homework.feature",
+    "tags": [
+      {
+        "name": "@HomeworkScenario",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
